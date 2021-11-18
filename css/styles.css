@@ -1,17 +1,17 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat-Black', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 
 }
 
 h2 {
-  font-family: "Montserrat-Bold";
+  font-family: 'Work Sans', sans-serif;;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: 'Work Sans', sans-serif;
 }
 
 .big-heading {
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu';
+  font-family: 'M PLUS Code Latin', sans-serif;;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .nav-link {
-  font-family: "Montserrat-Light";
+  font-family:  'Work Sans', sans-serif;
 }
 
 /* Download Buttons */
