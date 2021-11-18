@@ -1,0 +1,154 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  color: #fff;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+.feature-div {
+  text-align: center;
+  padding: 5%;
+}
+
+#features h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+#features i {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 5% 10%;
+  position: relative;
+  background-color: #fff;
+}
+
+/* About Me */
+
+#aboutMe {
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.aboutMe-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 24%;
+}
+
+.footer-icon {
+  padding: 3% 4%;
+  
+}
+
+.footer-link {
+  color: #3F3F3F;
+  display:inline-block;
+  width: 14px;
+  height: 16px;
+  margin: 3% 4%;
+  
+}
+
+#footer p {
+  opacity: 0.4;
+}
+
+/* Media */
+
+@media (max-width: 992px) {
+  .title-image{
+    position: static;
+    width: 60%;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
