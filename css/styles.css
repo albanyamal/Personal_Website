@@ -12,6 +12,7 @@ h2 {
 
 body {
   font-family: 'Work Sans', sans-serif;
+  background-color: #66806A;
 }
 
 .big-heading {
@@ -21,86 +22,16 @@ body {
 }
 
 #title {
-  background-color: #ff4c68;
+  background-color: #66806A;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-  color: #fff;
-}
-
-
-
-/* Navigation Bar */
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: 'M PLUS Code Latin', sans-serif;;
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-family:  'Work Sans', sans-serif;
-}
-
-/* Download Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0%;
-}
-
-.title-image {
-  transform: rotate(25deg);
-  width: 20%;
-  position: absolute;
-  right: 30%;
-}
-
-/* Features */
-
-.feature-div {
-  text-align: center;
-  padding: 5%;
-}
-
-#features h3 {
-  font-family: "Montserrat-Bold";
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-#features p {
-  color: #8f8f8f;
-}
-
-#features i {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-#features i:hover {
-  color: #ff4c68;
-}
-
-#features {
-  padding: 5% 10%;
-  position: relative;
-  background-color: #fff;
-}
 
 /* About Me */
 
 #aboutMe {
-  
+  padding: 2% 5% 2% 5%;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #B4C6A6;
   color: #fff;
 }
 
@@ -111,14 +42,18 @@ body {
   margin: 20px;
 }
 
+/* Hobbies */
 
+#hobby-coding {
+  
+}
 
 /* Footer */
 
 #footer {
-  background-color: #fff;
+  background-color: #66806A;
   text-align: center;
-  padding: 2% 24%;
+  padding: 0;
 }
 
 .footer-icon {
@@ -130,8 +65,8 @@ body {
   color: #3F3F3F;
   display:inline-block;
   width: 14px;
-  height: 16px;
-  margin: 3% 4%;
+  height: 6px;
+  margin: 1% 3%;
   
 }
 
