@@ -28,7 +28,7 @@ body {
 
 /* About Me */
 
-#aboutMe {
+#mainTitle {
   padding: 2% 5% 2% 5%;
   text-align: center;
   background-color: #B4C6A6;
@@ -36,17 +36,6 @@ body {
 }
 
 
-.aboutMe-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-/* Hobbies */
-
-#hobby-coding {
-  
-}
 
 /* Footer */
 
@@ -62,7 +51,7 @@ body {
 }
 
 .footer-link {
-  color: #3F3F3F;
+  color: #dddddd;
   display:inline-block;
   width: 14px;
   height: 6px;
@@ -71,6 +60,8 @@ body {
 }
 
 #footer p {
+  color: #dddddd;
+  margin-top:1%;
   opacity: 0.4;
 }
 

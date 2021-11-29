@@ -49,7 +49,7 @@
                 <form class="d-flex">
                 <ul class="navbar-nav d-flex">
                     <li class="nav-item">
-                    <a class="nav-link active" href="index.html">About Me</a>
+                    <a class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="links.html">Links</a>
@@ -75,6 +75,21 @@
 
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
+
+        let title = document.querySelector(".big-heading");
+        console.log(title.innerHTML);
+        let navLinks = this.shadowRoot.querySelectorAll(".nav-link");
+        let navItems = this.shadowRoot.querySelectorAll(".nav-item");
+        console.log(navLinks[0].innerHTML);
+        for(let i = 0; i < navLinks.length; i++){
+            console.log(i);
+            if(navLinks[i].innerHTML === title.innerHTML){
+                console.log("enter");
+                navItems[i].classList.add("active");
+            }
+        }
+        
+
     }
 }
 
