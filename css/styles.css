@@ -19,6 +19,8 @@ body {
   font-size: 3.5rem;
   font-weight: 800;
   line-height: 1.5;
+  text-align: left;
+  width:100%;
 }
 
 #title {
