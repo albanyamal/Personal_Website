@@ -42,7 +42,7 @@
           <!-- Navbar Start -->
 
 
-          <nav class="navbar navbar-expand- navbar-dark">
+          <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand" href="/index.html">amal_kaduwela</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -76,8 +76,8 @@
 
           `;
 
-        this.attach({ mode: 'open' });
-        this.appendChild(template.content.cloneNode(true));
+        this.attachShadow({ mode: 'open' });
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
 
         let title = document.querySelector(".big-heading");
         let navLinks = this.shadowRoot.querySelectorAll(".nav-link");
