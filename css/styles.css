@@ -1,6 +1,7 @@
 :root {
-  --primary:#66806A;
-  --secondary:#B4C6A6;
+  --primary:#93be6f;
+  --secondary:#a57eff;
+  --tertiary:#9ab8ff;
   --white:#FFF;
 }
 
@@ -18,7 +19,7 @@ h2 {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--primary);
+  background-color: var(--tertiary);
 }
 
 p {
@@ -45,19 +46,25 @@ p {
 /* About Me */
 
 #mainTitle {
-  padding: 2% 5% 2% 5%;
+  padding: 3% 5% 5% 5%;
   text-align: center;
-  background-color: var(--secondary);
+  background: linear-gradient(var(--primary), var(--tertiary));
   color: var(--white);
 }
 
 
 .hobby-sep {
-  border-top: 17px dotted var(--primary);
+  border-top: 17px dotted var(--white);
   width: 6%;
   margin-top: 4%;
   margin-bottom: 4%;
   justify-content: center;
+}
+
+.hobby {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }
 
 
@@ -66,10 +73,12 @@ p {
   align-self: center;
 }
 
-.hobby {
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
+.hobby-left {
+  text-align: left;
+}
+
+.hobby-right {
+  text-align: right;
 }
 
 
@@ -80,7 +89,7 @@ ul {
 .games {
   text-align: left;
   list-style: inside;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin:0;
 }
 
@@ -97,6 +106,7 @@ ul.games > li:before {
 
 
 
+
 #steam {
   justify-content: center;
 }
@@ -108,7 +118,7 @@ ul.games > li:before {
 /* Footer */
 
 #footer {
-  background-color: var(--primary);
+  background-color: var(--tertiary);
   text-align: center;
   padding: 0;
 }
