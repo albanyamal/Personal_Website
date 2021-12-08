@@ -1,7 +1,9 @@
 :root {
-  --primary:#93be6f;
-  --secondary:#a57eff;
+  --primary:#8fc363;
+  --secondary:#9064f6;
   --tertiary:#9ab8ff;
+  --a:#f8db58;
+  --b:#ff5353;
   --white:#FFF;
 }
 
@@ -12,19 +14,37 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
+  font-size: 2.25rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 5%;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--tertiary);
+  background: linear-gradient(var(--primary), var(--secondary));
 }
 
 p {
   font-size: 1.5rem;
 }
+
+a {
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--white);
+}
+
+
 
 
 
@@ -38,17 +58,13 @@ p {
   margin-bottom: 5%;
 }
 
-#navbar {
-  background-color: var(--primary);
-}
 
 
 /* About Me */
 
 #mainTitle {
   padding: 3% 5% 5% 5%;
-  text-align: center;
-  background: linear-gradient(var(--primary), var(--tertiary));
+  text-align: center; 
   color: var(--white);
 }
 
@@ -67,10 +83,10 @@ p {
   width: 85%;
 }
 
-
-.hobby-p {
+.hobby-h2 {
   margin: auto;
   align-self: center;
+  width:100%;
 }
 
 .hobby-left {
@@ -104,6 +120,28 @@ ul.games > li:before {
   text-indent: -20px;
 }
 
+.links-row {
+  margin: 4% 6% 5% 6%;
+}
+.links-row p{
+  margin-top: 3%;
+}
+
+.link-icon:hover {
+  opacity: 75%;
+}
+
+/* Music */
+.music-image {
+  width:90%;
+}
+
+.music-h2 {
+  width: 70%;
+  margin: auto;
+  align-self: center;
+  margin-bottom: 2%;
+}
 
 
 
@@ -118,7 +156,6 @@ ul.games > li:before {
 /* Footer */
 
 #footer {
-  background-color: var(--tertiary);
   text-align: center;
   padding: 0;
 }
