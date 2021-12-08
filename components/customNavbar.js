@@ -54,19 +54,19 @@
                   <a class="nav-link" href="index.html" onclick="window.open('index.html', '_self');">About Me</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="resume.html">Resume</a>
+                  <a class="nav-link" href="resume.html" onclick="window.open('resume.html', '_self');">Resume</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="music.html" onclick="window.open('music.html', '_self');">Music</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="critique.html">Critique</a>
+                  <a class="nav-link" href="critique.html" onclick="window.open('critique.html', '_self');">Critique</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="NWElement.html">Non-Written Element</a>
+                  <a class="nav-link" href="NWElement.html" onclick="window.open('NWElement.html', '_self');">Non-Written Element</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="links.html">Links</a>
+                  <a class="nav-link" href="links.html" onclick="window.open('links.html', '_self');">Links</a>
                   </li>
               </ul>
               </form>
