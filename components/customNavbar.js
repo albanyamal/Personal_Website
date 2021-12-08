@@ -54,7 +54,7 @@
                   <a class="nav-link" href="index.html" onclick="window.open('index.html', '_self');">About Me</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="resume.html" onclick="window.open('resume.html', '_self');">Resume</a>
+                  <a class="nav-link" href="resume.html" onclick="window.open('resume.html', '_self');">Experience</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="music.html" onclick="window.open('music.html', '_self');">Music</a>

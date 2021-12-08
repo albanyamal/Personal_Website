@@ -66,7 +66,7 @@ a:hover {
 }
 
 
-.hobby-sep {
+.threeDotHR {
   border-top: 17px dotted var(--white);
   width: 6%;
   margin-top: 4%;
@@ -156,24 +156,25 @@ ul.games > li:before {
   margin-top: 2%;
 }
 
-.resume-h5 {
-  text-align: center;
+.resume-h3, .resume-h4, .resume-h5{
+
 }
 
 .resume-hr {
   margin-left: 4%;
 }
 
-#mainTitle h3 {
+.title-h3 {
   text-align: left;
   justify-content: flex-start;
+  text-decoration: underline;
 }
 
 .collapsible { 
   background-color: none;
   cursor: pointer;
-  padding: 18px;
-  width: 30%;
+  padding: 3% 1%;
+  width: 40%;
   border: none;
   justify-content: space-between;
   text-align: left;
@@ -201,6 +202,41 @@ ul.games > li:before {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  justify-content: space-between;
+  width:100%;
+  margin:auto;
+  text-align: center;
+}
+
+.content > h3,h4,h5 {
+  margin-left: 0;
+  text-align: center;
+}
+
+.resume-dateLocation {
+  align-self: center;
+  text-align: right;
+}
+
+.resume-eventTitle {
+  justify-content: left;
+  text-align: left;
+  margin-left: 7%;
+}
+
+.resume-techSkills > h5 {
+  margin-left: 10%;
+}
+
+.resume-ul {
+  font-size: 1.65rem;
+  margin-left: 7%;
+  width: 90%;
+  text-align: left;
+}
+
+.resume-ul > li {
+  margin-top: 1%;
 }
 
 
