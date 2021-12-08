@@ -43,7 +43,7 @@
 
 
           <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="/index.html">amal_kaduwela</a>
+          <a class="navbar-brand" href="index.html">amal_kaduwela</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -51,22 +51,22 @@
               <form class="d-flex">
               <ul class="navbar-nav d-flex">
                   <li class="nav-item">
-                  <a class="nav-link" href="/index.html">About Me</a>
+                  <a class="nav-link" href="index.html">About Me</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/resume.html">Resume</a>
+                  <a class="nav-link" href="resume.html">Resume</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/music.html">Music</a>
+                  <a class="nav-link" href="music.html">Music</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/critique.html">Critique</a>
+                  <a class="nav-link" href="critique.html">Critique</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/NWElement.html">Non-Written Element</a>
+                  <a class="nav-link" href="NWElement.html">Non-Written Element</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/links.html">Links</a>
+                  <a class="nav-link" href="links.html">Links</a>
                   </li>
               </ul>
               </form>
