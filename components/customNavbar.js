@@ -51,13 +51,13 @@
               <form class="d-flex">
               <ul class="navbar-nav d-flex">
                   <li class="nav-item">
-                  <a class="nav-link" href="index.html">About Me</a>
+                  <a class="nav-link" href="index.html" onclick="window.open('index.html', '_self');">About Me</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="resume.html">Resume</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="music.html">Music</a>
+                  <a class="nav-link" href="music.html" onclick="window.open('music.html', '_self');">Music</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="critique.html">Critique</a>
