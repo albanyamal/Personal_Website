@@ -239,6 +239,15 @@ ul.games > li:before {
   margin-top: 1%;
 }
 
+/* Critique */
+
+.critique > ul, p {
+  font-size: 2rem;
+}
+
+.critique-p {
+  text-align: left;
+}
 
 /* Footer */
 

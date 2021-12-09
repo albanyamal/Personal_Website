@@ -63,7 +63,7 @@
                   <a class="nav-link" href="critique.html" onclick="window.open('critique.html', '_self');">Critique</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="NWElement.html" onclick="window.open('NWElement.html', '_self');">Non-Written Element</a>
+                  <a class="nav-link" href="NWElement.html" onclick="window.open('NWElement.html', '_self');">Projects</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="links.html" onclick="window.open('links.html', '_self');">Links</a>
