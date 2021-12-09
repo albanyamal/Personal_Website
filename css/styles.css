@@ -156,9 +156,6 @@ ul.games > li:before {
   margin-top: 2%;
 }
 
-.resume-h3, .resume-h4, .resume-h5{
-
-}
 
 .resume-hr {
   margin-left: 4%;
@@ -247,6 +244,26 @@ ul.games > li:before {
 
 .critique-p {
   text-align: left;
+  line-height: 2;
+}
+
+/* Projects */
+
+.project {
+  align-self: center;
+  margin-bottom: 2%;
+}
+
+.project-title {
+  margin-top: 2%;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.project > h4 {
+  text-align: left;
+  font-size: 1.75rem;
+  line-height: 2;
 }
 
 /* Footer */
