@@ -127,7 +127,7 @@ ul.games > li:before {
 
 /* Links */
 .links-row {
-  margin: 4% 6% 5% 6%;
+  padding: 6%;
 }
 .links-row p{
   margin-top: 3%;
@@ -180,17 +180,17 @@ ul.games > li:before {
 
 }
 
-.active, .collapsible:hover {
+#mainTitle > .active, .collapsible:hover {
   text-decoration: underline;
 }
 
-.collapsible:before {
+#mainTitle > .collapsible:before {
   content: '\25BA';
   font-weight: bold;
   margin-left: 5px;
 }
 
-.active:before {
+#mainTitle > .active:before {
   content: "\25BC";
 }
 
@@ -236,16 +236,6 @@ ul.games > li:before {
   margin-top: 1%;
 }
 
-/* Critique */
-
-.critique > ul, p {
-  font-size: 2rem;
-}
-
-.critique-p {
-  text-align: left;
-  line-height: 2;
-}
 
 /* Projects */
 
@@ -296,7 +286,7 @@ ul.games > li:before {
 
 /* Media */
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .title-image{
     position: static;
     width: 60%;
@@ -306,4 +296,4 @@ ul.games > li:before {
   #title {
     text-align: center;
   }
-}
+} */

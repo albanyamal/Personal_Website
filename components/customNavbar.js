@@ -7,11 +7,11 @@
     constructor() {
         super();
 
-        const template = document.createElement('template');
+        // const template = document.createElement('template');
 
-        template.innerHTML = `
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+        this.innerHTML = `
+        
+        
           <style>
             .container-fluid {
                 padding: 2% 5% 2% 5%;
@@ -60,10 +60,7 @@
                   <a class="nav-link" href="music.html" onclick="window.open('music.html', '_self');">Music</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="critique.html" onclick="window.open('critique.html', '_self');">Critique</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="NWElement.html" onclick="window.open('NWElement.html', '_self');">Projects</a>
+                  <a class="nav-link" href="projects.html" onclick="window.open('projects.html', '_self');">Projects</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="links.html" onclick="window.open('links.html', '_self');">Links</a>
@@ -76,12 +73,12 @@
 
           `;
 
-        this.attachShadow({ mode: 'open' });
-        this.shadowRoot.appendChild(template.content.cloneNode(true));
+        // this.attachShadow({ mode: 'open' });
+        // this.shadowRoot.appendChild(template.content.cloneNode(true));
 
         let title = document.querySelector(".big-heading");
-        let navLinks = this.shadowRoot.querySelectorAll(".nav-link");
-        let navItems = this.shadowRoot.querySelectorAll(".nav-item");
+        let navLinks = this.querySelectorAll(".nav-link");
+        let navItems = this.querySelectorAll(".nav-item");
         for(let i = 0; i < navLinks.length; i++){
             console.log(i);
             if(navLinks[i].innerHTML === title.innerHTML){
